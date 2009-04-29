@@ -1,5 +1,5 @@
 # Require our stack
-%w(essential apache scm ruby_enterprise memcached postgresql mysql).each do |r|
+%w(essential apache passenger scm ruby_enterprise memcached postgresql mysql).each do |r|
   require File.join(File.dirname(__FILE__), 'stack', r)
 end
 
